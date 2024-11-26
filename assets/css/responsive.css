@@ -1,0 +1,305 @@
+/* media query 1200 */
+@media (max-width: 1200px) {
+  .banner_heading {
+    font-size: 90px;
+  }
+  .banner_btns {
+    margin-top: 80px;
+  }
+  .banner {
+    /* height: 500px; */
+  }
+  .info {
+    padding-block: 70px;
+  }
+  .why {
+    padding-top: 70px;
+  }
+  .featured {
+    padding-block: 70px 140px;
+  }
+}
+/* media query 1024 */
+@media (max-width: 1024px) {
+  iframe#iframe {
+    height: 100% !important;
+  }
+  .why_heading,
+  .featured .heading {
+    font-size: 65px;
+    margin-bottom: 24px;
+  }
+  .banner_heading {
+    font-size: 80px;
+  }
+  .banner_btns {
+    margin-top: 70px;
+  }
+  .banner {
+    /* height: 450px; */
+  }
+  .info {
+    padding-block: 60px;
+  }
+  .why {
+    padding-top: 60px;
+  }
+  .why_title {
+    margin-bottom: 16px;
+  }
+  .why_desc {
+    font-size: 26px;
+  }
+  .featured {
+    padding-block: 60px 110px;
+  }
+  .info_heading {
+    font-size: 48px;
+    margin-block: 40px 16px;
+  }
+  .info_desc {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+}
+
+/* media query 991 */
+@media (max-width: 991px) {
+  .banner {
+    /* height: 400px; */
+  }
+  .why_heading,
+  .featured .heading {
+    font-size: 55px;
+    margin-bottom: 20px;
+  }
+  .banner_heading {
+    font-size: 70px;
+  }
+  .header_list {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: var(--purple-light);
+    position: fixed;
+    height: 100%;
+    gap: 20px;
+    top: 0;
+    z-index: 5;
+    right: 0;
+    box-shadow: rgba(0, 0, 0, 0.9) -4px 9px 25px -6px;
+    transform: translateX(100%);
+    max-width: 350px;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+  }
+  .header_list.active {
+    right: 0;
+    transform: translateX(0%);
+  }
+  .humburger {
+    display: flex;
+  }
+  .close_menu {
+    display: flex;
+  }
+  .banner_btns {
+    margin-top: 60px;
+  }
+  .info {
+    padding-block: 50px;
+  }
+  .why {
+    padding-top: 50px;
+  }
+  .featured {
+    padding-block: 50px 90px;
+  }
+  .info_right {
+    max-width: 50%;
+  }
+  .why_wrapper {
+    flex-wrap: wrap;
+  }
+  .why_box {
+    max-width: 48%;
+  }
+  .featured_wrapper {
+    flex-wrap: wrap;
+  }
+  .featured_game {
+    width: 48%;
+  }
+  .info_heading {
+    font-size: 42px;
+    margin-block: 20px 16px;
+  }
+  .footer_navbar {
+    width: 26%;
+  }
+}
+/* media query 768 */
+@media (max-width: 768px) {
+  .header {
+    top: 40px;
+  }
+  .info_img {
+    height: 330px;
+  }
+  .header_logoLnk {
+    height: 26px;
+    width: 180px;
+  }
+  .banner_content {
+    padding-inline: 8px;
+  }
+  .why_heading,
+  .featured .heading {
+    font-size: 42px;
+    margin-bottom: 18px;
+  }
+  .banner_heading {
+    font-size: 50px;
+  }
+  .banner_btns {
+    margin-top: 42px;
+  }
+  .banner {
+    /* height: 350px; */
+  }
+  .info {
+    padding-block: 40px;
+  }
+  .featured {
+    padding-block: 40px 70px;
+  }
+  .featured_gameLnk {
+    height: 248px;
+  }
+  .info_wrapper {
+    flex-direction: column;
+  }
+  .info_left,
+  .info_right {
+    max-width: 100%;
+  }
+  .why {
+    padding-top: 40px;
+  }
+  .why_title {
+    font-size: 24px;
+  }
+  .why_desc {
+    font-size: 20px;
+  }
+  .why_box {
+    max-width: 100%;
+  }
+  .why_box {
+    padding: 18px;
+  }
+  .info_heading {
+    font-size: 38px;
+    margin-block: 18px 12px;
+  }
+  .info_desc {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  .featured_game {
+    width: 100%;
+  }
+  .footer_left {
+    width: 40%;
+    order: 1;
+  }
+  .footer_icon {
+    width: 180px;
+  }
+  .footer_content {
+    padding-block: 38px;
+  }
+  .footer_navbar {
+    width: 40%;
+    order: 4;
+  }
+  .footer_socials {
+    width: 40%;
+    order: 2;
+  }
+  .social_link {
+    width: 20px;
+    height: 20px;
+  }
+}
+/* media query 575 */
+@media (max-width: 575px) {
+  .header {
+    top: 20px;
+  }
+  .why_heading,
+  .featured .heading {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+  .info_img {
+    height: 260px;
+  }
+  .banner_content {
+    padding-inline: 4px;
+  }
+  .why {
+    padding-top: 32px;
+  }
+  .why_title {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  .why_desc {
+    font-size: 18px;
+  }
+  .banner_heading {
+    font-size: 38px;
+  }
+  .banner_btns {
+    margin-top: 20px;
+  }
+  .featured {
+    padding-block: 32px;
+  }
+  .featured_gameLnk {
+    height: 200px;
+  }
+  .banner {
+    /* height: 300px; */
+  }
+  .info {
+    padding-block: 32px;
+  }
+  .info_heading {
+    font-size: 26px;
+    margin-block: 16px 10px;
+  }
+  .info_desc {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .header_logoLnk {
+    height: 20px;
+    width: 150px;
+  }
+  .footer_left {
+    width: 100%;
+  }
+  .footer_navbar {
+    width: 100%;
+    order: 4;
+  }
+  .footer_content {
+    padding-block: 24px;
+  }
+  .footer_socials {
+    width: 100%;
+    order: 4;
+  }
+}
