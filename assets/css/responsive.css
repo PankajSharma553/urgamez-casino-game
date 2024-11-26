@@ -125,10 +125,7 @@
     max-width: 48%;
   }
   .featured_wrapper {
-    flex-wrap: wrap;
-  }
-  .featured_game {
-    width: 48%;
+    grid-template-columns: repeat(2, 1fr);
   }
   .info_heading {
     font-size: 42px;
@@ -206,9 +203,10 @@
     font-size: 24px;
     margin-bottom: 16px;
   }
-  .featured_game {
-    width: 100%;
+  .featured_wrapper {
+    grid-template-columns: repeat(1, 1fr);
   }
+
   .footer_left {
     width: 40%;
     order: 1;
