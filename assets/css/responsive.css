@@ -6,9 +6,6 @@
   .banner_btns {
     margin-top: 80px;
   }
-  .banner {
-    /* height: 500px; */
-  }
   .info {
     padding-block: 70px;
   }
@@ -16,7 +13,7 @@
     padding-top: 70px;
   }
   .featured {
-    padding-block: 70px 140px;
+    padding-block: 70px;
   }
 }
 /* media query 1024 */
@@ -24,9 +21,8 @@
   iframe#iframe {
     height: 100% !important;
   }
-  .why_heading,
-  .featured .heading {
-    font-size: 65px;
+  .heading {
+    font-size: 50px;
     margin-bottom: 24px;
   }
   .banner_heading {
@@ -34,9 +30,6 @@
   }
   .banner_btns {
     margin-top: 70px;
-  }
-  .banner {
-    /* height: 450px; */
   }
   .info {
     padding-block: 60px;
@@ -51,7 +44,7 @@
     font-size: 26px;
   }
   .featured {
-    padding-block: 60px 110px;
+    padding-block: 60px;
   }
   .info_heading {
     font-size: 48px;
@@ -65,12 +58,8 @@
 
 /* media query 991 */
 @media (max-width: 991px) {
-  .banner {
-    /* height: 400px; */
-  }
-  .why_heading,
-  .featured .heading {
-    font-size: 55px;
+  .heading {
+    font-size: 45px;
     margin-bottom: 20px;
   }
   .banner_heading {
@@ -113,7 +102,7 @@
     padding-top: 50px;
   }
   .featured {
-    padding-block: 50px 90px;
+    padding-block: 50px;
   }
   .info_right {
     max-width: 50%;
@@ -126,6 +115,9 @@
   }
   .featured_wrapper {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .signup {
+    margin-bottom: 16px;
   }
   .info_heading {
     font-size: 42px;
@@ -150,9 +142,8 @@
   .banner_content {
     padding-inline: 8px;
   }
-  .why_heading,
-  .featured .heading {
-    font-size: 42px;
+  .heading {
+    font-size: 36px;
     margin-bottom: 18px;
   }
   .banner_heading {
@@ -161,14 +152,12 @@
   .banner_btns {
     margin-top: 42px;
   }
-  .banner {
-    /* height: 350px; */
-  }
+
   .info {
     padding-block: 40px;
   }
   .featured {
-    padding-block: 40px 70px;
+    padding-block: 40px;
   }
   .featured_gameLnk {
     height: 248px;
@@ -206,7 +195,6 @@
   .featured_wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
-
   .footer_left {
     width: 40%;
     order: 1;
@@ -226,8 +214,8 @@
     order: 2;
   }
   .social_link {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
   }
 }
 /* media query 575 */
@@ -235,11 +223,11 @@
   .header {
     top: 20px;
   }
-  .why_heading,
-  .featured .heading {
+  .heading {
     font-size: 28px;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
   }
+
   .info_img {
     height: 260px;
   }
@@ -268,8 +256,11 @@
   .featured_gameLnk {
     height: 200px;
   }
-  .banner {
-    /* height: 300px; */
+  .signup {
+    margin-bottom: 12px;
+  }
+  .signup_form {
+    flex-direction: column;
   }
   .info {
     padding-block: 32px;
@@ -299,5 +290,8 @@
   .footer_socials {
     width: 100%;
     order: 4;
+  }
+  .footer_social {
+    padding: 4px;
   }
 }
