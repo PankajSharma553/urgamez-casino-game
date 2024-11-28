@@ -134,7 +134,7 @@
 @media (max-width: 768px) {
 
   .header {
-    top: 40px;
+    /* top: 40px; */
   }
   .info_img {
     height: 330px;
@@ -232,7 +232,7 @@
     /* display: none; */
   }
   .header {
-    top: 20px;
+    /* top: 20px; */
   }
   .heading {
     font-size: 28px;
