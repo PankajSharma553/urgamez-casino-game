@@ -1,4 +1,3 @@
-@import url(https://db.onlinewebfonts.com/c/cf3fb387331afda8f5d7f9c8dea3cd13?family=Jaturat);
 * {
   margin: 0;
   padding: 0;
@@ -15,14 +14,12 @@
   --cyan-soft: #5ce1e6;
 
   /* font family */
-  /* --primary-font: "tt_octosquares"; */
-  /* --secondary-font: "cosmic"; */
+  --primary-font: "tt_octosquares";
 }
 
 body {
-  /* font-family: var(--primary-font); */
+  font-family: var(--primary-font);
   background-color: var(--light-black);
-  font-family: "Jaturat";
 }
 
 .container {
@@ -605,6 +602,9 @@ iframe#iframe {
 }
 
 /* classic section */
+.play_btn{
+  padding: 10px 40px;
+}
 .classic .featured_gameLnk--one {
   background-image: url("/assets/images/classic1.png");
 }
@@ -675,7 +675,7 @@ iframe#iframe {
 }
 
 .new-games .featured_gameLnk--nine {
-  background-image: url("/assets/images/new-game8.png");
+  background-image: url("/assets/images/new-game9.png");
 }
 
 /* contact section */
@@ -690,6 +690,7 @@ iframe#iframe {
 .contact_form {
   max-width: 600px;
   width: 100%;
+  margin: 0 auto;
 }
 .btn_submit {
   max-width: 160px;
@@ -804,7 +805,7 @@ iframe#iframe {
 }
 .sign_desc {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 2rem;
 }
 .signup_input {
   width: 100%;
