@@ -9,6 +9,9 @@
   .info {
     padding-block: 70px;
   }
+  .info_heading {
+    font-size: 52px;
+}
   .why {
     padding-top: 70px;
   }
@@ -47,7 +50,7 @@
     padding-block: 60px;
   }
   .info_heading {
-    font-size: 48px;
+    font-size: 44px;
     margin-block: 40px 16px;
   }
   .info_desc {
@@ -129,6 +132,7 @@
 }
 /* media query 768 */
 @media (max-width: 768px) {
+
   .header {
     top: 40px;
   }
@@ -220,6 +224,13 @@
 }
 /* media query 575 */
 @media (max-width: 575px) {
+  .mobile-view{
+    /* display: block; */
+   padding-bottom: 32px;
+  }
+  .desktop_version{
+    /* display: none; */
+  }
   .header {
     top: 20px;
   }
