@@ -20,7 +20,7 @@
     padding-top: 70px;
   }
   .signup {
-    margin-bottom: 60px;
+    margin-bottom: 70px;
   }
   .featured {
     padding-block: 70px;
@@ -58,7 +58,7 @@
     font-size: 26px;
   }
   .signup {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
   .featured {
     padding-block: 60px;
@@ -139,7 +139,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .signup {
-    margin-bottom: 40px;
+    margin-bottom:50px;
   }
   .info_heading {
     font-size: 42px;
@@ -305,7 +305,7 @@
     height: 200px;
   }
   .signup {
-    margin-bottom: 32px;
+    margin-bottom: 40px;
   }
   .signup_form {
     flex-direction: column;
