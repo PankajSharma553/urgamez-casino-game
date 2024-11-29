@@ -1,5 +1,8 @@
 /* media query 1200 */
 @media (max-width: 1200px) {
+  .info_sec{
+    margin-block: 140px 65px;
+  }
   .banner_heading {
     font-size: 90px;
   }
@@ -7,7 +10,8 @@
     margin-top: 80px;
   }
   .info {
-    padding-block: 70px;
+    /* padding-block: 70px; */
+    margin-bottom: 70px;
   }
   .info_heading {
     font-size: 52px;
@@ -15,12 +19,18 @@
   .why {
     padding-top: 70px;
   }
+  .signup {
+    margin-bottom: 60px;
+  }
   .featured {
     padding-block: 70px;
   }
 }
 /* media query 1024 */
 @media (max-width: 1024px) {
+  .info_sec{
+    margin-block: 120px 60px;
+  }
   iframe#iframe {
     height: 100% !important;
   }
@@ -35,7 +45,8 @@
     margin-top: 70px;
   }
   .info {
-    padding-block: 60px;
+    /* padding-block: 60px; */
+    margin-bottom: 60px;
   }
   .why {
     padding-top: 60px;
@@ -46,12 +57,15 @@
   .why_desc {
     font-size: 26px;
   }
+  .signup {
+    margin-bottom: 50px;
+  }
   .featured {
     padding-block: 60px;
   }
   .info_heading {
     font-size: 44px;
-    margin-block: 40px 16px;
+    margin-block: 40px;
   }
   .info_desc {
     font-size: 26px;
@@ -61,6 +75,10 @@
 
 /* media query 991 */
 @media (max-width: 991px) {
+  .sec_heading {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
   .heading {
     font-size: 45px;
     margin-bottom: 20px;
@@ -99,7 +117,8 @@
     margin-top: 60px;
   }
   .info {
-    padding-block: 50px;
+    /* padding-block: 50px; */
+    margin-bottom: 50px;
   }
   .why {
     padding-top: 50px;
@@ -120,11 +139,11 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .signup {
-    margin-bottom: 16px;
+    margin-bottom: 40px;
   }
   .info_heading {
     font-size: 42px;
-    margin-block: 20px 16px;
+    margin-block: 20px;
   }
   .footer_navbar {
     width: 26%;
@@ -132,10 +151,17 @@
 }
 /* media query 768 */
 @media (max-width: 768px) {
-
-  .header {
-    /* top: 40px; */
+  .info_sec{
+    margin-block: 110px 50px;
   }
+  .sec_heading {
+    font-size: 36px;
+    margin-bottom: 28px;
+  }
+  .sec_title {
+    font-size: 26px;
+    margin-bottom: 14px;
+}
   .info_img {
     height: 330px;
   }
@@ -156,9 +182,9 @@
   .banner_btns {
     margin-top: 42px;
   }
-
   .info {
-    padding-block: 40px;
+    /* padding-block: 40px; */
+    margin-bottom: 40px;
   }
   .featured {
     padding-block: 40px;
@@ -190,7 +216,7 @@
   }
   .info_heading {
     font-size: 38px;
-    margin-block: 18px 12px;
+    margin-block: 18px;
   }
   .info_desc {
     font-size: 24px;
@@ -224,6 +250,21 @@
 }
 /* media query 575 */
 @media (max-width: 575px) {
+  .info_sec{
+    margin-block: 90px 40px;
+  }
+  .sec_heading {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+  .sec_title {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+  .sec_desc {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
   .mobile-view{
     /* display: block; */
    padding-bottom: 32px;
@@ -231,14 +272,10 @@
   .desktop_version{
     /* display: none; */
   }
-  .header {
-    /* top: 20px; */
-  }
   .heading {
     font-size: 28px;
     margin-bottom: 16px;
   }
-
   .info_img {
     height: 260px;
   }
@@ -268,17 +305,18 @@
     height: 200px;
   }
   .signup {
-    margin-bottom: 12px;
+    margin-bottom: 32px;
   }
   .signup_form {
     flex-direction: column;
   }
   .info {
-    padding-block: 32px;
+    /* padding-block: 32px; */
+    margin-bottom: 32px;
   }
   .info_heading {
     font-size: 26px;
-    margin-block: 16px 10px;
+    margin-block: 16px;
   }
   .info_desc {
     font-size: 20px;
@@ -288,6 +326,9 @@
     height: 20px;
     width: 150px;
   }
+  .footer_title {
+    font-size: 22px;
+}
   .footer_left {
     width: 100%;
   }

@@ -57,6 +57,10 @@ a {
   border-color: var(--white-color);
 }
 
+.info_sec {
+  margin-block: 150px 70px;
+}
+
 .mt-10 {
   margin-top: 100px;
 }
@@ -113,11 +117,6 @@ textarea::placeholder {
   font-size: 18px;
   font-weight: 400;
   color: var(--purple-light);
-}
-
-/* header section */
-.homepage .header {
-  /* top: 50px; */
 }
 
 .header {
@@ -230,7 +229,8 @@ textarea::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
+  border-bottom: 16px solid var(--white-color);
 }
 
 .banner_content {
@@ -263,7 +263,8 @@ textarea::placeholder {
 .info {
   color: var(--white-color);
   border-bottom: 1px solid var(--white-color);
-  padding-block: 77px;
+  /* padding-block: 77px; */
+  margin-bottom: 77px;
 }
 
 .info_wrapper {
@@ -285,7 +286,7 @@ textarea::placeholder {
   font-size: 56px;
   font-weight: 400;
   color: rgb(140, 82, 255);
-  margin-block: 50px 20px;
+  margin-block: 50px;
   line-height: 105%;
   max-width: 550px;
   width: 100%;
@@ -312,7 +313,7 @@ textarea::placeholder {
 .info_btns {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 6px;
 }
 
@@ -621,6 +622,7 @@ iframe#iframe {
 /* classic section */
 .play_btn {
   padding: 10px 40px;
+  border-radius: 8px;
 }
 
 .classic .featured_gameLnk--one {
@@ -706,9 +708,23 @@ iframe#iframe {
 }
 
 .contact_form {
-  max-width: 600px;
+  max-width: 650px;
   width: 100%;
   margin: 0 auto;
+}
+
+.contact_inner {
+  background-image: url("../images/contact.jpg");
+  height: 100%;
+  width: 100%;
+  padding: 16px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  max-width: 650px;
+  background-attachment: fixed;
 }
 
 .btn_submit {
@@ -728,6 +744,7 @@ iframe#iframe {
   margin-bottom: 10px;
   display: inline-block;
   transition: all 0.3s ease-in-out;
+  color: var(--purple-light);
 }
 
 .sec_email:hover {
@@ -809,7 +826,7 @@ iframe#iframe {
 
 /*signup section  */
 .signup {
-  margin-bottom: 20px;
+  margin-bottom: 70px;
 }
 
 .signup_form {
@@ -864,18 +881,22 @@ iframe#iframe {
   margin: 0 auto;
   width: 100%;
 }
-
+.card_title h1{
+  color: var(--white-color);
+  margin-bottom: 1rem;
+}
 .swap-text {
   color: var(--white-color);
   font-size: 18px;
   margin-top: 1rem;
   display: inline-block;
 }
-
-.btn_login {
-  margin-top: 1rem;
+.card {
+  background-color: #171737;
+  border-radius: 4px;
+  padding: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.8) 0px 0px 29px 0px;
 }
-
 .swap-text a {
   color: var(--purple-light);
 }
@@ -895,7 +916,7 @@ iframe#iframe {
   background-image: url(../images/tp-banner-image.jpg);
   background-position: center;
   background-size: contain;
- padding-bottom: 70px;
+  padding-bottom: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -948,11 +969,13 @@ iframe#iframe {
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
-  background-color:var(--purple-light);
+  background-color: var(--purple-light);
 }
+
 .toplist-left {
   width: 47%;
 }
+
 .tp-logo {
   height: 80px;
   width: 100%;
@@ -960,6 +983,7 @@ iframe#iframe {
   padding: 10px;
   border-radius: 5px;
 }
+
 .tp-logo a {
   background-image: url("../images/Legiano-logo.webp");
   background-position: center;
@@ -969,48 +993,58 @@ iframe#iframe {
   width: 100%;
   display: inline-block;
 }
+
 .rating-wrap {
   display: flex;
   justify-content: space-between;
   margin: 12px 0;
 }
+
 .rating-wrap p {
   font-size: 18px;
-  color:var(--white-color);
+  color: var(--white-color);
   font-weight: 500;
   margin-bottom: 0;
   line-height: 1.4;
 }
-.rating-txt p span, .votes-txt p span {
+
+.rating-txt p span,
+.votes-txt p span {
   display: block;
   font-weight: 700;
 }
+
 .rating-wrap p {
   font-size: 18px;
-  color:var(--white-color);
+  color: var(--white-color);
   font-weight: 500;
   margin-bottom: 0;
   line-height: 1.4;
 }
+
 .toplist-right {
   width: 50%;
 }
+
 .toplist-heading h4 {
   font-size: 20px;
   line-height: 1.1;
   text-align: center;
-  color:var(--white-color);
+  color: var(--white-color);
   margin-bottom: 10px;
 }
+
 .toplist-heading p {
   font-size: 16px;
   text-align: center;
-  color:var(--white-color);
+  color: var(--white-color);
 }
+
 .top-list-btn {
   text-align: center;
   margin: 0 auto;
 }
+
 .top-list-btn a {
   padding: 12px 30px;
   background-color: transparent;
@@ -1018,16 +1052,18 @@ iframe#iframe {
   margin-top: 12px;
   font-size: 14px;
   font-weight: 500;
-  color:var(--white-color);
+  color: var(--white-color);
   text-transform: uppercase;
   border: 1px solid var(--white-color);
 }
-.top-list-btn a:hover{
-color: var(--purple-light);
-background-color: var(--white-color);
+
+.top-list-btn a:hover {
+  color: var(--purple-light);
+  background-color: var(--white-color);
 }
+
 .casino-section h2 {
-  color:var(--white-color);
+  color: var(--white-color);
   text-align: center;
   padding: 30px 0;
   font-size: 30px;
